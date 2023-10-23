@@ -14,4 +14,17 @@ Os estudantes deverão caracterizar o sistema embarcado Raspberry Pi Pico W, que
 
 ## Prova de conceito
 <img src="img\project raspberry.png">
-<a href="https://wokwi.com/projects/379421348555692033">Acessae projeto</a>
+<a href="https://wokwi.com/projects/379421348555692033">Acessar projeto no Wokwi</a>
+
+Nesta POC, utilizei a placa Raspberry Pi Pico para criar um sistema embarcado que imprime a palavra "Fala" ao clicar no botão vermelho e "Leo" ao clicar no botão azul.
+
+Para esta prova de conceito, utilizei os componentes:
+
+- 1 Raspberry Pi Pico
+<img src="img\raspberry.png" height="30px">
+- 1 Seven Segment Display (4 Digits)
+<img src="img\asdfe.png">
+- 2 PushButtons
+<img src="img\btnss.png">
+- 2 LED's
+<img src="img\leds.png">
