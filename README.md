@@ -21,7 +21,7 @@ Nesta POC, utilizei a placa Raspberry Pi Pico para criar um sistema embarcado qu
 Para esta prova de conceito, utilizei os componentes:
 
 - 1 Raspberry Pi Pico
-<img src="img\raspberry.png" height="100">
+<img src="img\raspberry.png" height="100" rotate="90">
 - 1 Seven Segment Display (4 Digits)
 <img src="img\asdfe.png" height="100">
 - 2 PushButtons
