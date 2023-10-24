@@ -9,6 +9,8 @@ Os estudantes deverão caracterizar o sistema embarcado Raspberry Pi Pico W, que
 
 
 ## Manual de referência
+Portas do micro-controlador:
+<img src="img\portas rasp.png">
 
 ## Interfaces de comunicação com o componente
 
@@ -22,9 +24,12 @@ Para esta prova de conceito, utilizei os componentes:
 
 - 1 Raspberry Pi Pico
 <img src="img\raspberry.png" height="100" rotate="90">
+
 - 1 Seven Segment Display (4 Digits)
 <img src="img\asdfe.png" height="100">
+
 - 2 PushButtons
 <img src="img\btnss.png" height="100">
+
 - 2 LED's
 <img src="img\leds.png" height="100">
