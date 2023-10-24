@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste documento, descreveremos o sistema embarcado Raspberry Pi Pico W, que será utilizado no laboratório. O Raspberry Pi Pico W é um dispositivo versátil com diversas funcionalidades e interfaces de comunicação. Neste documento, abordaremos os seguintes tópicos:
+O objetivo desta documentação é abordar o sistema embarcado Raspberry Pi Pico W, o qual será utilizado no laboratório. Abordaremos os seguintes tópicos:
 
 1. Manual de Referência
 2. Interfaces de Comunicação com o Componente
@@ -10,7 +10,7 @@ Neste documento, descreveremos o sistema embarcado Raspberry Pi Pico W, que ser�
 
 ## 1. Manual de Referência
 
-O Raspberry Pi Pico W é um sistema de placa que possui um microcontrolador imbutido, incluindo diversos componentes e recursos:
+O Raspberry Pi Pico W é um sistema de placa que possui um microcontrolador embutido, incluindo diversos componentes e recursos:
 
 <img src="img\pase.png">
 
@@ -36,7 +36,7 @@ Os pinos SWD servem como uma interface de debug.
 
 ## 2. Interfaces de Comunicação com o Componente
 
-Interfaces de comunicação são protocolos que permitem a troca de dados entre componentes eletrônicos em um sistema, a Respberry Pi possui os seguintes protocolos:
+Interfaces de comunicação são protocolos que permitem a troca de dados entre componentes eletrônicos em um sistema, a Raspberry Pi possui os seguintes protocolos:
 
 <img src="img\portas.png">
 <img src="img\legenda.png">
@@ -89,7 +89,7 @@ Esta POC envolve o uso da Raspberry Pi Pico para criar um sistema embarcado cujo
 - 2 LEDs
 <img src="img\leds.png" height="100">
 
-Ao clicar nos botões presentes na solução, o sistema ativa o Led de cor respectiva e imprime uma das frases específicadas no código.
+Ao clicar nos botões presentes na solução, o sistema ativa o Led de cor respectiva e imprime uma das frases especificadas no código.
 
 <img src="img\project raspberry.png">
 <a href="https://wokwi.com/projects/379421348555692033">Acessar projeto no Wokwi</a>
