@@ -39,6 +39,23 @@ Portas do micro-controlador:
 <p>O fio terra, representado como GND, fornece uma referência elétrica comum para todos os componentes e circuitos em um sistema. Isso garante que as tensões sejam medidas e referenciadas ao mesmo ponto, permitindo um funcionamento estável e correto do sistema. Além disso, o GND desempenha um papel crucial na proteção contra eletricidade estática e na conexão segura de componentes eletrônicos.</p>
 
 
+<img src="img\pase.png">
+<h3>Microcontrolador</h3>
+Realiza operações importantes, como a gestão de energia do sistema.
+
+<h3>Buck Boost</h3>
+Circuito eletrônico usado para converter uma tensão em outra tensão de polaridade oposta.
+
+<h3>Flash</h3>
+Armazenamento.
+
+
+<h3>Cristal de Quartzo</h3>
+Responsável pelo clock da placa, sincronizando operações do processador, componentes e periféricos.
+
+<h3>Pinos SWD</h3>
+Servem como interface de Debug.
+
 ## Interfaces de comunicação com o componente
 
 ## Prova de conceito
