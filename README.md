@@ -13,7 +13,6 @@ Portas do micro-controlador:
 <img src="img\portas.png">
 <img src="img\legenda.png">
 
-Aqui está o seu resumo aprimorado, fornecendo informações mais detalhadas sobre cada tópico:
 
 <h3>UART (Universal Asynchronous Receiver/Transmitter)</h3>
 <p>O UART, que significa "Universal Asynchronous Receiver/Transmitter" (Recebimento/Transmissor Universal Assíncrono), desempenha um papel crucial na comunicação entre dispositivos. Ele permite que os dispositivos troquem informações de maneira serial, transmitindo e recebendo dados em formato assíncrono. Isso é essencial para a comunicação entre computadores, microcontroladores e outros dispositivos eletrônicos.</p>
