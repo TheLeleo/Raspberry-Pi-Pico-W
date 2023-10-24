@@ -1,4 +1,4 @@
-# Raspberry Pi Pico W <img src="img\rasplogo.png" height="60px">
+<img src="img\rasplogo.png" height="40px"> # Raspberry Pi Pico W <img src="img\rasplogo.png" height="40px">
 
 ## Introdução
 
