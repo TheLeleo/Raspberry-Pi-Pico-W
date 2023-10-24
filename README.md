@@ -10,7 +10,7 @@ Neste documento, descreveremos o sistema embarcado Raspberry Pi Pico W, que ser�
 
 ## 1. Manual de Referência
 
-O Raspberry Pi Pico W é um sistema embarcado que inclui vários componentes e recursos essenciais. Aqui estão alguns dos principais componentes e sua função:
+O Raspberry Pi Pico W é um sistema de placa que possui um microcontrolador imbutido, incluindo diversos componentes e recursos:
 
 <img src="img\pase.png">
 
@@ -24,34 +24,34 @@ O circuito Buck-Boost é utilizado para converter a tensão de entrada em uma te
 
 ### Flash
 
-O armazenamento é fornecido pelo componente Flash, permitindo o armazenamento de dados e programas.
+Oferece armazenamento para o sistema.
 
 ### Cristal de Quartzo
 
-O cristal de quartzo fornece um sinal de clock preciso, sincronizando as operações do processador, componentes e periféricos.
+O cristal de quartzo fornece o sinal de clock do dispositivo, tornando as as operações do processador, componentes e periféricos sincronizadas.
 
 ### Pinos SWD
 
-Os pinos SWD servem como uma interface de depuração, permitindo a análise e depuração do sistema.
+Os pinos SWD servem como uma interface de debug.
 
 ## 2. Interfaces de Comunicação com o Componente
 
-O Raspberry Pi Pico W oferece várias interfaces de comunicação para interagir com outros dispositivos. Aqui estão algumas delas:
+Interfaces de comunicação são protocolos que permitem a troca de dados entre componentes eletrônicos em um sistema, a Respberry Pi possui os seguintes protocolos:
 
 <img src="img\portas.png">
 <img src="img\legenda.png">
 
 ### UART (Universal Asynchronous Receiver/Transmitter)
 
-O UART é uma interface crucial para a comunicação entre dispositivos, permitindo a troca de informações em formato assíncrono.
+O UART é uma interface que permite a troca de informações entre dispositivos de forma assíncrona.
 
 ### GPIO, PIO e PWM (Portas Programáveis de Input/Output e Modulação por Largura de Pulso)
 
-As portas GPIO, PIO e PWM são recursos versáteis que possibilitam a entrada e saída de informações, bem como o controle de dispositivos como motores e LEDs.
+As portas GPIO, PIO e PWM são recursos que possibilitam a entrada e saída de informações (Input e Output), bem como o controle de dispositivos como motores e LEDs.
 
 ### ADC (Conversor Analógico-Digital)
 
-O Conversor Analógico-Digital (ADC) é usado para converter sinais analógicos em valores digitais, tornando possível a leitura de sensores analógicos.
+O Conversor Analógico-Digital (ADC) é usado para converter sinais analógicos (sinais do mundo real) em valores digitais, possibilitando a manipulação destas informações.
 
 ### I2C (Inter-Integrated Circuit)
 
@@ -63,24 +63,19 @@ O barramento SPI permite a comunicação de alta velocidade entre o Raspberry Pi
 
 ### Energia
 
-Fornecer a energia elétrica adequada é essencial para o funcionamento estável de todos os componentes do Raspberry Pi.
+Responsável por oferecer energia necessária para o uso de certos componentes utilizados em conjunto com a placa.
 
 ### Controle do Sistema
 
-Os controles do sistema incluem comandos específicos, como o pino "RUN," que possibilita a reinicialização do Raspberry Pi.
+Os controles do sistema incluem comandos específicos da placa, como por exemplo o pino "RUN", cujo possibilita a reinicialização da Raspberry Pi.
 
 ### Fio Terra (GND)
 
-O fio terra fornece uma referência elétrica comum para todos os componentes e circuitos, garantindo um funcionamento estável e seguro.
+Responsável pela referência elétrica comum para todos os componentes, garantindo um funcionamento estável e seguro da placa em conjunto com seus periféricos.
 
 ## 3. Prova de Conceito
 
-
-
-Nossa prova de conceito envolve o uso da Raspberry Pi Pico para criar um sistema embarcado que responde a botões e exibe mensagens em um display de sete segmentos. Os componentes utilizados incluem:
-
-<img src="img\project raspberry.png">
-<a href="https://wokwi.com/projects/379421348555692033">Acessar projeto no Wokwi</a>
+Esta POC envolve o uso da Raspberry Pi Pico para criar um sistema embarcado cujo responde a botões e exibe mensagens em um display de sete segmentos. Os componentes utilizados são:
 
 - 1 Raspberry Pi Pico
 <img src="img\raspberry.png" height="100" rotate="90">
@@ -94,10 +89,7 @@ Nossa prova de conceito envolve o uso da Raspberry Pi Pico para criar um sistema
 - 2 LEDs
 <img src="img\leds.png" height="100">
 
-A prova de conceito demonstra como a Raspberry Pi Pico pode interagir com esses componentes para exibir mensagens "Fala" ao pressionar o botão vermelho e "Leo" ao pressionar o botão azul.
+Ao clicar nos botões presentes na solução, o sistema ativa o Led de cor respectiva e imprime uma das frases específicadas no código.
 
-Para visualizar e interagir com a prova de conceito, acesse o projeto no [Wokwi](https://wokwi.com/projects/379421348555692033).
-
-## Conclusão
-
-O Raspberry Pi Pico W é um sistema embarcado versátil com uma ampla variedade de recursos e interfaces de comunicação. Esta documentação fornece informações essenciais para entender e aproveitar ao máximo o potencial desse dispositivo.
+<img src="img\project raspberry.png">
+<a href="https://wokwi.com/projects/379421348555692033">Acessar projeto no Wokwi</a>
