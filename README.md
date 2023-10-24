@@ -77,3 +77,5 @@ Para esta prova de conceito, utilizei os componentes:
 
 - 2 LED's
 <img src="img\leds.png" height="100">
+
+Os push buttons servem como o input do nosso sistema, o qual recebe esta informação e acende o Led de cor respectiva e mostra a mensagem desejada no Display de 4 dígitos.
